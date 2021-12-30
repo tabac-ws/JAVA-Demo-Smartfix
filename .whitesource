@@ -14,6 +14,7 @@
     "minSeverityLevel": "LOW"
   },
   "remediateSettings": {
-    "extends": ["github>whitesource/merge-confidence:beta"]
+    "extends": ["github>whitesource/merge-confidence:beta", "github>whitesource/log4j-remediations"],
+    "transitiveRemediation": true
   }
 }
